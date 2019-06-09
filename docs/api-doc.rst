@@ -1,13 +1,27 @@
 API Doc
 =======
 
-.. warning:: The API has many endpoints, but only these endpoints are meant for public use.
+License
+-------
+
+.. image:: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+  :align: center
+  :alt: Creative Commons Attribution-ShareAlike 4.0 International License
+
+XRP Scan API by `XRP Scan <https://xrpscan.com/>`_ is licensed under a
+`Creative Commons Attribution-ShareAlike 4.0 International License
+<http://creativecommons.org/licenses/by-sa/4.0/>`_.
+Permissions beyond the scope of this license may be available: :ref:`contact_us`
+
+Introduction
+------------
 
 The latest (and only) supported API version is ``v1``. All resources are
 relative to the following root endpoint::
 
   https://api.xrpscan.com/api/v1
 
+.. warning:: The API has many endpoints, but only these endpoints are meant for public use.
 
 Get Account
 -----------
