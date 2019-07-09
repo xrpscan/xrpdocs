@@ -9,7 +9,7 @@ DM option if you need to.
 - Email: `support@xrpscan.com <support@xrpscan.com>`_
 - Twitter: `@xrpscan <https://twitter.com/xrpscan>`_
 - XRP Chat: `www.xrpchat.com/profile/21967-xrpscan <https://www.xrpchat.com/profile/21967-xrpscan/>`_
-- Reddit: `/r/xrpscan <https://www.reddit.com/r/xrpscan>`_
+- Reddit: `/u/xrpscan <https://www.reddit.com/u/xrpscan>`_
 
 Security
 --------
