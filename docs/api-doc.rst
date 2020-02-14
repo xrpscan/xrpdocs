@@ -234,7 +234,7 @@ Example response:
 Get Amendment
 --------------
 
-Get a specific Amendments supported by XRPL::
+Get a specific Amendment supported by XRPL::
 
   GET /amendment/[AMENDMENT_ID]
 
