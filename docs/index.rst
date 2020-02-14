@@ -48,8 +48,6 @@ Feedback
 `XRP Scan <https://xrpscan.com/>`_ is in beta testing. If you find a bug, please
 report it on our 
 `Github tracker <https://github.com/xrpscan/xrpscan.com/issues>`_. We can also 
-be reached on email at: `support@xrpscan.com <support@xrpscan.com>`_
+be reached on email: :ref:`contact_us`.
 
-Follow us
----------
-We're active on Twitter, follow us: `@xrpscan <https://twitter.com/xrpscan>`_
+We're active on Twitter at: `@xrpscan <https://twitter.com/xrpscan>`_

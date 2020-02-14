@@ -3,8 +3,8 @@ Integration Guide
 
 Do you work at a Bank, Financial Institution or a Cryptocurrency Exchange? Its 
 easy to integrate XRP Scan in your application. We support deep links for
-**Accounts**, **Transactions**, **Ledgers** and **Validator nodes**. All pages
-support desktop as well as mobile layouts.
+**Accounts**, **Transactions**, **Ledgers**, **Amendments** and **Validator nodes**.
+All pages support desktop as well as mobile layouts.
 
 Account
 -------
@@ -79,3 +79,21 @@ has the following properties:
   ``O``, capital letter ``I``, and lowercase letter ``l``.
 
 Example: `https://xrpscan.com/validator/nHDB2PAPYqF86j9j3c6w1F1ZqwvQfiWc... <https://xrpscan.com/validator/nHDB2PAPYqF86j9j3c6w1F1ZqwvQfiWcFShZ9Pokg9q4ohNDSkAz>`_
+
+Amendment
+---------
+
+To link to an Amendment, use::
+
+    https://xrpscan.com/amendment/[AMENDMENT_ID]
+
+``AMENDMENT_ID`` in the XRP Ledger is identified by upto 64 charcters
+long string. An `Amendment ID <https://xrpl.org/known-amendments.html>`_ 
+has the following properties:
+
+- A string exactly 64 characters in length.
+- Hex character set: ``0-9`` and ``A-F``.
+- Case sensitive.
+
+
+Example: `https://xrpscan.com/amendment/30CD365592B8EE40489BA01AE2F7555C... <https://xrpscan.com/amendment/30CD365592B8EE40489BA01AE2F7555CAC9C983145871DC82A42A31CF5BAE7D9>`_

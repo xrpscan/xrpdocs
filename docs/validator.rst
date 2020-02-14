@@ -14,21 +14,17 @@ Validator's properties:
 #. High I/O NVMe SSD disks in RAID configuration.
 #. Dedicated server that only runs ``rippled`` and ``sshd``.
 #. Connected to the internet backbone via 1 GBit/s connection.
-#. Peers with several highly trusted XRPL hubs.
+#. Peers with several highly trusted ``XRPL`` hubs.
 #. Geographically located in a commercial datacenter near Helsinki, Finland.
 #. CentOS 7 with regular OS updates. 
 #. Timely and coordinated ``rippled`` upgrades.
-#. Not affiliated with Ripple.
+#. Independently operated - Not affiliated with Ripple, Inc.
 
-.. note:: The API service behind `xrpscan.com <https://xrpscan.com/>`_ runs a separate stock ``rippled`` node that's completely isolated from the validating node.
+.. note:: The API service that powers `xrpscan.com <https://xrpscan.com/>`_ runs
+  a separate stock ``rippled`` node that's completely isolated from the validating node.
 
 Contact operator
 ----------------
 
-There are several ways to contact the node operator. For transparency, we'd be
-happy to answer any questions related to the validating node.
-
-- Email: `support@xrpscan.com <support@xrpscan.com>`_
-- Twitter: `@xrpscan <https://twitter.com/xrpscan>`_
-- XRP Chat: `www.xrpchat.com/profile/21967-xrpscan <https://www.xrpchat.com/profile/21967-xrpscan/>`_
-- Reddit: `/r/xrpscan <https://www.reddit.com/r/xrpscan>`_
+There are several ways to contact the node operator. For transparency, we're
+happy to answer any questions related to the validating node. :ref:`contact_us`

@@ -11,7 +11,8 @@ License
 XRP Scan API by `XRP Scan <https://xrpscan.com/>`_ is licensed under a
 `Creative Commons Attribution-ShareAlike 4.0 International License
 <http://creativecommons.org/licenses/by-sa/4.0/>`_.
-Permissions beyond the scope of this license may be available: :ref:`contact_us`
+Permissions beyond the scope of this license, including commercial use are
+available: :ref:`contact_us`
 
 Introduction
 ------------
@@ -21,7 +22,8 @@ relative to the following root endpoint::
 
   https://api.xrpscan.com/api/v1
 
-.. warning:: The API has many endpoints, but only these endpoints are meant for public use.
+.. warning:: The API has many endpoints, but only the following endpoints are 
+  meant for public use.
 
 Get Account
 -----------
@@ -81,6 +83,9 @@ Get Names
 Get list of well-known Names used to identify accounts::
 
   GET /names/well-known
+
+.. note:: For Accounts marked as **verified**, verification proof is available with a
+  commercial license. Please :ref:`contact_us` for more details.
 
 Example request:
 
@@ -184,6 +189,98 @@ Example response:
         }
       }
     ]
+
+
+Get Amendments
+--------------
+
+Get list of Amendments supported by XRPL::
+
+  GET /amendments
+
+Example request:
+
+.. code-block:: shell
+
+    $ curl https://api.xrpscan.com/api/v1/amendments
+
+Example response:
+
+.. code-block:: json
+
+    [
+      {
+        "amendment_id": "30CD365592B8EE40489BA01AE2F7555CAC9C983145871DC82A42A31CF5BAE7D9",
+        "count": 18,
+        "enabled": false,
+        "name": "DeletableAccounts",
+        "supported": true,
+        "threshold": 27,
+        "validations": 35,
+        "vote": 170,
+        "introduced": "1.4.0"
+      },
+      {
+        "amendment_id": "C4483A1896170C66C098DEA5B0E024309C60DC960DE5F01CD7AF986AA3D9AD37",
+        "enabled": true,
+        "name": "fixMasterKeyAsRegularKey",
+        "supported": true,
+        "enabled_on": "2019-10-02T07:37:50.000Z",
+        "introduced": "1.3.1",
+        "tx_hash": "61096F8B5AFDD8F5BAF7FC7221BA4D1849C4E21B1BA79733E44B12FC8DA6EA20"
+      },
+    ]
+
+Get Amendment
+--------------
+
+Get a specific Amendments supported by XRPL::
+
+  GET /amendment/[AMENDMENT_ID]
+
+Example request:
+
+.. code-block:: shell
+
+    $ curl https://api.xrpscan.com/api/v1/amendment/30CD365592B8EE40489BA01AE2F7555CAC9C983145871DC82A42A31CF5BAE7D9
+
+Example response:
+
+.. code-block:: json
+
+    {
+      "amendment_id": "30CD365592B8EE40489BA01AE2F7555CAC9C983145871DC82A42A31CF5BAE7D9",
+      "count": 18,
+      "enabled": false,
+      "name": "DeletableAccounts",
+      "supported": true,
+      "threshold": 27,
+      "validations": 35,
+      "vote": 170,
+      "introduced": "1.4.0",
+      "voters": [
+        {
+          "validation_public_key": "nHUFCyRCrUjvtZmKiLeF8ReopzKuUoKeDeXo3wEUBVSaawzcSBpW",
+          "domain": "ripple.kenan-flagler.unc.edu"
+        },
+        {
+          "validation_public_key": "nHDH7bQJpVfDhVSqdui3Z8GPvKEBQpo6AKHcnXe21zoD4nABA6xj",
+          "domain": "ripplevalidator.uwaterloo.ca"
+        }
+      ],
+      "vetoers": [
+        {
+          "validation_public_key": "nHUFE9prPXPrHcG3SkwP1UzAQbSphqyQkQK9ATXLZsfkezhhda3p",
+          "domain": "alloy.ee"
+        },
+        {
+          "validation_public_key": "nHUUrjuEMtvzzTsiW2xKinUt7Jd83QFqYgfy3Feb7Hq1EJyoxoSz",
+          "domain": "validator.ripple.com"
+        }
+      ]
+    }
+
+
 
 Get Health
 ----------
