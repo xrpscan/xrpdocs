@@ -4,13 +4,13 @@ API Doc
 License
 -------
 
-.. image:: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
+.. image:: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
   :align: center
   :alt: Creative Commons Attribution-ShareAlike 4.0 International License
 
 XRP Scan API by `XRP Scan <https://xrpscan.com/>`_ is licensed under a
 `Creative Commons Attribution-ShareAlike 4.0 International License
-<http://creativecommons.org/licenses/by-sa/4.0/>`_.
+<http://creativecommons.org/licenses/by-nc-sa/4.0/>`_.
 Permissions beyond the scope of this license, including commercial use are
 available: :ref:`contact_us`
 
