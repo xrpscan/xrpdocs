@@ -6,10 +6,10 @@ License
 
 .. image:: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
   :align: center
-  :alt: Creative Commons Attribution-ShareAlike 4.0 International License
+  :alt: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 
 XRPSCAN API by `XRPSCAN <https://xrpscan.com/>`_ is licensed under a
-`Creative Commons Attribution-ShareAlike 4.0 International License
+`Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 <http://creativecommons.org/licenses/by-nc-sa/4.0/>`_.
 Permissions beyond the scope of this license, including commercial use are
 available: :ref:`contact_us`
