@@ -8,7 +8,7 @@ License
   :align: center
   :alt: Creative Commons Attribution-ShareAlike 4.0 International License
 
-XRP Scan API by `XRP Scan <https://xrpscan.com/>`_ is licensed under a
+XRPSCAN API by `XRPSCAN <https://xrpscan.com/>`_ is licensed under a
 `Creative Commons Attribution-ShareAlike 4.0 International License
 <http://creativecommons.org/licenses/by-nc-sa/4.0/>`_.
 Permissions beyond the scope of this license, including commercial use are

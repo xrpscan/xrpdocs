@@ -16,7 +16,7 @@ xrpscan documentation
   contributing
   contact-us
 
-`XRP Scan <https://xrpscan.com/>`_ is an explorer for the ``XRP`` Ledger that 
+`XRPSCAN <https://xrpscan.com/>`_ is an explorer for the ``XRP`` Ledger that 
 provides an easy way to search and explore the ledger. On 
 `<xrpscan.com>`_ you can explore:
 
@@ -28,12 +28,12 @@ provides an easy way to search and explore the ledger. On
 
 Introduction
 ------------
-XRP Scan is an explorer and analytics platform for the ``XRP`` Ledger. We
+XRPSCAN is an explorer and analytics platform for the ``XRP`` Ledger. We
 provide a clean and simple way to look up your accounts, ledgers and 
 transactions.
 
 We hope you find this project useful and use it in your daily interaction with 
-the ``XRP`` Ledger. There are several tasks that we're working on to make XRP Scan 
+the ``XRP`` Ledger. There are several tasks that we're working on to make XRPSCAN 
 more useful and accessible. We'll roll out these changes as and when they are 
 complete.
 
@@ -43,9 +43,14 @@ that's included in Ripple's and Coil's recommended ``UNL``. We're committed to
 the success of ``XRP`` and absolutely ❤ the XRP Community. We hope you give us a
 try and spread the word.
 
+Build
+-----
+
+``$ make html``
+
 Feedback
 --------
-`XRP Scan <https://xrpscan.com/>`_ is in beta testing. If you find a bug, please
+`XRPSCAN <https://xrpscan.com/>`_ is in beta testing. If you find a bug, please
 report it on our 
 `Github tracker <https://github.com/xrpscan/xrpscan.com/issues>`_. We can also 
 be reached on email: :ref:`contact_us`.

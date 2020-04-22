@@ -2,7 +2,7 @@ Integration Guide
 =================
 
 Do you work at a Bank, Financial Institution or a Cryptocurrency Exchange? Its 
-easy to integrate XRP Scan in your application. We support deep links for
+easy to integrate XRPSCAN in your application. We support deep links for
 **Accounts**, **Transactions**, **Ledgers**, **Amendments** and **Validator nodes**.
 All pages support desktop as well as mobile layouts.
 
